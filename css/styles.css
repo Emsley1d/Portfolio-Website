@@ -1,0 +1,32 @@
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    height: 10em;
+}
+
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5em;
+}
+
+
+.name {
+    /* display: flex;
+    justify-content: space-evenly; */
+    align-items: center;
+    font-size: xx-large;
+    align-items: left;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.project {
+    border: 1px solid black;
+    height: 35em;
+    width: 18em;
+}
