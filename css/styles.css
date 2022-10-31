@@ -1,7 +1,10 @@
 .nav {
     display: flex;
     justify-content: space-evenly;
-    height: 10em;
+    justify-content: baseline;
+    height: 7em;
+    border-bottom: 1px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .links {
@@ -19,11 +22,13 @@
     align-items: center;
     font-size: xx-large;
     align-items: left;
+    text-transform: uppercase;
 }
 
 .container {
     display: flex;
     justify-content: space-evenly;
+    padding-top: 3em;
 }
 
 .project {
@@ -33,10 +38,12 @@
 }
 
 .gif {
-    align-items: center;
+    display: flex;
+    justify-content: center;
     border: 1px solid black;
     height: 12em;
-    width: 16em;
+    width: 90%;
+    padding: 0.5em;
 }
 
 .work {
