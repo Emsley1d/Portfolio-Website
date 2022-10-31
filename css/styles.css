@@ -1,15 +1,19 @@
+.body {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
 .nav {
     display: flex;
     justify-content: space-evenly;
     justify-content: baseline;
     height: 7em;
     border-bottom: 1px solid black;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .links {
     display: flex;
     justify-content: space-evenly;
+    justify-content: baseline;
     align-items: center;
     padding: 5em;
     text-decoration: none;
@@ -23,12 +27,15 @@
     font-size: xx-large;
     align-items: left;
     text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    padding-left: 3em;
 }
 
 .container {
     display: flex;
     justify-content: space-evenly;
     padding-top: 3em;
+    text-decoration: none;
 }
 
 .project {
@@ -43,14 +50,22 @@
     border: 1px solid black;
     height: 12em;
     width: 90%;
-    padding: 0.5em;
+    border: 0.05em;
 }
 
-.work {
-    color: red
+a:link {
+    text-decoration: none;
 }
 
-.a {
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
     text-decoration: none;
 }
 
@@ -70,3 +85,4 @@
     max-height: 2em;
     padding: 0.5em;
 }
+
