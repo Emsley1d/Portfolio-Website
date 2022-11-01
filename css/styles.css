@@ -9,6 +9,7 @@
     justify-content: baseline;
     height: 7em;
     border-bottom: 1px solid black;
+    font-family: 'Inter', sans-serif;
 }
 
 .links {
@@ -22,8 +23,6 @@
 
 
 .name {
-    /* display: flex;
-    justify-content: space-evenly; */
     align-items: center;
     font-size: xx-large;
     align-items: left;
@@ -42,8 +41,13 @@
 .project {
     border: 1px solid black;
     color: black;
-    height: 37em;
+    font-family: 'Inter', sans-serif;
+    height: 41em;
     width: 18em;
+}
+
+.content {
+    margin: 0.5em
 }
 
 .gif {
@@ -55,22 +59,7 @@
     margin: 1em
 }
 
-a:link {
-    text-decoration: none;
-    color: black;
-}
-
-a:visited {
-    text-decoration: none;
-    color: black;
-}
-
-a:hover {
-    text-decoration: none;
-    color: black;
-}
-
-a:active {
+a:link, a:visited, a:hover, a:active  {
     text-decoration: none;
     color: black;
 }
