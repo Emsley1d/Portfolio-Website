@@ -1,5 +1,6 @@
 .body {
     font-family: 'Space Grotesk', sans-serif;
+    size: 100%;
 }
 
 .nav {
@@ -40,33 +41,38 @@
 
 .project {
     border: 1px solid black;
-    height: 35em;
+    color: black;
+    height: 37em;
     width: 18em;
 }
 
 .gif {
     display: flex;
     justify-content: center;
-    border: 1px solid black;
+    border: 0.01 solid black;
     height: 12em;
     width: 90%;
-    border: 0.05em;
+    margin: 1em
 }
 
 a:link {
     text-decoration: none;
+    color: black;
 }
 
 a:visited {
     text-decoration: none;
+    color: black;
 }
 
 a:hover {
     text-decoration: none;
+    color: black;
 }
 
 a:active {
     text-decoration: none;
+    color: black;
 }
 
 .icons {
@@ -84,5 +90,14 @@ a:active {
     max-width: 2em;
     max-height: 2em;
     padding: 0.5em;
+}
+
+.languages {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    max-width: 2em;
+    max-height: 2em;
+    
 }
 
