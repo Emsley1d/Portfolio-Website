@@ -1,14 +1,12 @@
 .body {
     font-family: 'Space Grotesk', sans-serif;
-    size: 100%;
 }
 
 .nav {
     display: flex;
     justify-content: space-evenly;
     justify-content: baseline;
-    height: 7em;
-    border-bottom: 1px solid black;
+    height: 6em;
     font-family: 'Inter', sans-serif;
 }
 
@@ -23,27 +21,36 @@
 
 
 .name {
-    align-items: center;
-    font-size: xx-large;
-    align-items: left;
+    position: absolute;
+    left: 2em;
     text-transform: uppercase;
     font-family: 'Inter', sans-serif;
-    padding-left: 3em;
+    font-size: xx-large;
+}
+
+.icons {
+    float: right;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .container {
     display: flex;
     justify-content: space-evenly;
     padding-top: 3em;
+    padding-bottom: 3em;
     text-decoration: none;
+    background-color: rgb(240, 240, 255);
 }
 
 .project {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     color: black;
     font-family: 'Inter', sans-serif;
     height: 41em;
     width: 18em;
+    box-shadow: inset;
+    background-color: white;
 }
 
 .content {
@@ -64,17 +71,6 @@ a:link, a:visited, a:hover, a:active  {
     color: black;
 }
 
-.icons {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.git {
-    max-width: 2em;
-    max-height: 2em;
-    padding: 0.5em;
-}
-
 .linked {
     max-width: 2em;
     max-height: 2em;
@@ -86,7 +82,18 @@ a:link, a:visited, a:hover, a:active  {
     flex-direction: row;
     justify-content: space-evenly;
     max-width: 2em;
-    max-height: 2em;
-    
+    max-height: 2em;  
 }
 
+.readme {
+    position: relative;
+    height: 4em;
+}
+
+.git {
+    position: relative;
+    max-width: 2em;
+    max-height: 2em;
+    padding: 0.5em;
+    bottom: 0em;
+}
