@@ -47,8 +47,8 @@
     /* border: 1px solid black; */
     color: black;
     font-family: 'Inter', sans-serif;
-    height: 41em;
-    width: 18em;
+    width: 100%;
+    width: 100%;
     box-shadow: inset;
     background-color: white;
 }
