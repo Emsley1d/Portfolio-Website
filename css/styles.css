@@ -1,5 +1,7 @@
 .body {
     font-family: 'Space Grotesk', sans-serif;
+    background-color: #121212;
+
 }
 
 .nav {
@@ -19,38 +21,43 @@
     text-decoration: none;
 }
 
-
-.name {
-    position: absolute;
-    left: 2em;
-    text-transform: uppercase;
-    font-family: 'Inter', sans-serif;
-    font-size: xx-large;
-}
-
 .icons {
     float: right;
     display: flex;
     justify-content: space-evenly;
 }
 
+#fullpage {
+    background-color: #222831;
+}
+
 .container {
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: row;
     padding-top: 3em;
     padding-bottom: 3em;
     text-decoration: none;
-    background-color: rgb(240, 240, 255);
+    background-color: #222831;
+    color: rgb(255, 255, 255);
 }
 
 .project {
     /* border: 1px solid black; */
-    color: black;
+    display: flex;
+    justify-content: space-around;
+    color: rgb(255, 255, 255);
     font-family: 'Inter', sans-serif;
     width: 100%;
     width: 100%;
     box-shadow: inset;
-    background-color: white;
+    background-color: #222831;
+}
+
+.title .h1 {
+    color: rgb(255, 255, 255);
+    background-color: #222831;
+    font-size: 20em;
+    width: 12em;
 }
 
 .content {
@@ -68,7 +75,7 @@
 
 a:link, a:visited, a:hover, a:active  {
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 .linked {
