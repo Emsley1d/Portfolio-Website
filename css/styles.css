@@ -32,20 +32,20 @@
 }
 
 .container {
-    display: flex;
-    flex-direction: row;
+    /* display: flex;
+    flex-direction: row; */
     padding-top: 3em;
     padding-bottom: 3em;
     text-decoration: none;
     background-color: #222831;
-    color: rgb(255, 255, 255);
+    color: #EEEEEE;
 }
 
 .project {
     /* border: 1px solid black; */
     display: flex;
-    justify-content: space-around;
-    color: rgb(255, 255, 255);
+    flex-direction: row;
+    color: #EEEEEE;
     font-family: 'Inter', sans-serif;
     width: 100%;
     width: 100%;
@@ -54,10 +54,10 @@
 }
 
 .title .h1 {
-    color: rgb(255, 255, 255);
-    background-color: #222831;
-    font-size: 20em;
-    width: 12em;
+    color: #EEEEEE;
+    background-color: #283f63;
+    font-size: 30em;
+    /* width: 12em; */
 }
 
 .content {
@@ -66,16 +66,17 @@
 
 .gif {
     display: flex;
-    justify-content: center;
+    justify-content: right;
     border: 0.01 solid black;
-    height: 12em;
+    height: 20em;
     width: 90%;
     margin: 1em
+
 }
 
 a:link, a:visited, a:hover, a:active  {
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: #EEEEEE;
 }
 
 .linked {
