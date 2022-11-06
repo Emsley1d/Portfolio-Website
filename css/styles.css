@@ -1,6 +1,6 @@
 .body {
     font-family: 'Space Grotesk', sans-serif;
-    background-color: #121212;
+    background-color: #222831;
 
 }
 
@@ -32,8 +32,8 @@
 }
 
 .container {
-    /* display: flex;
-    flex-direction: row; */
+    display: flex;
+    flex-direction: row;
     padding-top: 3em;
     padding-bottom: 3em;
     text-decoration: none;
@@ -42,22 +42,55 @@
 }
 
 .project {
-    /* border: 1px solid black; */
     display: flex;
     flex-direction: row;
     color: #EEEEEE;
     font-family: 'Inter', sans-serif;
     width: 100%;
-    width: 100%;
     box-shadow: inset;
     background-color: #222831;
+    
 }
 
-.title .h1 {
-    color: #EEEEEE;
-    background-color: #283f63;
-    font-size: 30em;
-    /* width: 12em; */
+.title h1 {
+    color: #e8eef1;
+    background-color: #2e3642;
+    font-size: 8em;
+    margin-top: 0em;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0em;
+}
+
+
+.title h3 {
+    padding-left: 0.4em;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #2e3642;
+    font-size: 2.5em;
+    color: #e8eef1;
+    overflow: hidden;
+    border-right: .15em solid #222831;
+    white-space: nowrap;
+    animation: 
+      typing 1.7s steps(20, end) forwards,
+      blink 1s 5;
+    width: 0;
+    margin-top: 0em;
+  }
+
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 97% }
+  }
+
+  @keyframes blink {
+    from { border-color: transparent }
+    to { border-color: #e8eef1; }
+  }
+
+.title p {
+    color: #e8eef1;
+
 }
 
 .content {
