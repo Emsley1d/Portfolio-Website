@@ -39,19 +39,27 @@
     padding-bottom: 3em;
     text-decoration: none;
     background-color: #222831;
-    color: #EEEEEE;
+    color: #e8eef1;
 }
 
 .project {
     display: flex;
     flex-direction: row;
-    color: #EEEEEE;
+    color: #e8eef1;
     font-family: 'Inter', sans-serif;
     width: 100%;
     box-shadow: inset;
     background-color: #222831;   
 }
 
+.project h2 {
+    font-size: 3em;
+}
+
+.aboutp {
+    padding-left: 2em;
+    padding-right: 2em;
+}
 
 .title h1 {
     color: #e8eef1;
@@ -77,6 +85,7 @@
       blink 1s 5;
     width: 0;
     margin-top: 0em;
+
   }
 
   @keyframes typing {
@@ -96,12 +105,12 @@
 
 .content-left {
     margin: 0.5em;
-    padding-left: 4em
+    padding-left: 4em;
 }
 
 .content-right {
     margin: 0.5em;
-    padding-right: 4em
+    padding-right: 4em;
 }
 
 .gif {
@@ -111,7 +120,7 @@
     padding-right: 4em;
     height: 20em;
     width: 50%;
-    margin: 1em
+    margin: 1em;
 }
 
 .gif3 {
@@ -121,12 +130,12 @@
     padding-left: 4em;
     height: 20em;
     width: 50%;
-    margin: 1em
+    margin: 1em;
 }
 
 a:link, a:visited, a:hover, a:active  {
     text-decoration: none;
-    color: #EEEEEE;
+    color: #e8eef1;
 }
 
 .linked {
@@ -150,8 +159,23 @@ a:link, a:visited, a:hover, a:active  {
 
 .git {
     position: relative;
-    max-width: 2em;
-    max-height: 2em;
+    max-width: 3.5em;
+    max-height: 3.5em;
     padding: 0.5em;
     bottom: 0em;
+}
+
+.skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.skill-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4em;
+    color: #e8eef1;
+    padding-left: 2em;
+
 }
