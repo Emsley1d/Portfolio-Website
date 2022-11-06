@@ -33,7 +33,8 @@
 
 .container {
     display: flex;
-    flex-direction: row;
+    flex-wrap: row;
+    justify-content: space-evenly;
     padding-top: 3em;
     padding-bottom: 3em;
     text-decoration: none;
@@ -48,9 +49,9 @@
     font-family: 'Inter', sans-serif;
     width: 100%;
     box-shadow: inset;
-    background-color: #222831;
-    
+    background-color: #222831;   
 }
+
 
 .title h1 {
     color: #e8eef1;
@@ -93,18 +94,34 @@
 
 }
 
-.content {
-    margin: 0.5em
+.content-left {
+    margin: 0.5em;
+    padding-left: 4em
+}
+
+.content-right {
+    margin: 0.5em;
+    padding-right: 4em
 }
 
 .gif {
     display: flex;
     justify-content: right;
-    border: 0.01 solid black;
+    float: right;
+    padding-right: 4em;
     height: 20em;
-    width: 90%;
+    width: 50%;
     margin: 1em
+}
 
+.gif3 {
+    display: flex;
+    justify-content: left;
+    float: left;
+    padding-left: 4em;
+    height: 20em;
+    width: 50%;
+    margin: 1em
 }
 
 a:link, a:visited, a:hover, a:active  {
