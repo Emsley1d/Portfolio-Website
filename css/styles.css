@@ -5,20 +5,19 @@
 }
 
 .nav {
+    background: rgb(46,54,66);
+    background: linear-gradient(90deg, rgba(46,54,66,1) 30%, rgba(232,238,241,1) 100%);
     display: flex;
-    justify-content: space-evenly;
-    justify-content: baseline;
-    height: 6em;
+    justify-content: flex-end;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    height: 4em;
     font-family: 'Inter', sans-serif;
 }
 
 .links {
-    display: flex;
-    justify-content: space-evenly;
-    justify-content: baseline;
-    align-items: center;
     padding: 5em;
-    text-decoration: none;
 }
 
 .icons {
@@ -139,8 +138,8 @@ a:link, a:visited, a:hover, a:active  {
 }
 
 .linked {
-    max-width: 2em;
-    max-height: 2em;
+    max-width: 3em;
+    max-height: 3em;
     padding: 0.5em;
 }
 
