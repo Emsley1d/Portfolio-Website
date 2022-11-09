@@ -168,6 +168,9 @@ a:link, a:visited, a:hover, a:active  {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    padding-left: 4em;
+    padding-right: 4em;
+
 
 }
 
@@ -177,4 +180,15 @@ a:link, a:visited, a:hover, a:active  {
     color: #e8eef1;
     padding-left: 2em;
 
+}
+
+i {
+    font-size: 4em;
+    color: #e8eef1;
+    padding: 0.2em;
+}
+
+i h6 {
+    font-size: 0.2em;
+    color: #e8eef1;
 }
