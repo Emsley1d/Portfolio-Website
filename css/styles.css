@@ -25,6 +25,10 @@
     justify-content: space-evenly;
 }
 
+.icons .p {
+    color: #e8eef1;
+}
+
 #fullpage {
     background-color: #222831;
 }
@@ -81,11 +85,11 @@
     font-size: 2.5em;
     color: #e8eef1;
     overflow: hidden;
-    border-right: .15em solid #222831;
+    border-right: .1em solid #222831;
     white-space: nowrap;
     animation: 
       typing 1.7s steps(20, end) forwards,
-      blink 1s 5;
+      blink 1s 3;
     width: 0;
     margin-top: 0em;
     padding-left: 1em;
@@ -201,4 +205,9 @@ i h6 {
     font-family: 'Montserrat', sans-serif;
     font-size: 0.2em;
     color: #e8eef1;
+}
+
+#fp-nav ul li a span, 
+.fp-slidesNav ul li a span{
+  background: #e8eef1;
 }
