@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
-    <link rel="stylesheet" type="text/css" href="./css/fullpage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.12/fullpage.min.css" integrity="sha512-W3G0KdDm94gQSRjzg7HWRLBT3lqAcWtWvnb1Eo5Uo7e6RDzhJW2ldmcOQg06cYqaKrrkIp9AjxIJBbMtVYTtQg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css">
 
 
@@ -107,7 +107,7 @@
         </div>
 
 
-    </div>
+    
     </a>
 
     <!-- ! NUTRIC02 -->
@@ -340,7 +340,11 @@
         </div>
     </div>
 
-    <script type="text/javascript" src="fullpage.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.12/fullpage.min.js" integrity="sha512-2N6afhHcaOPaBztibhzvEp9MBtXoG+6YQ5AkllMJKHrZKUUiHHmIc1bEafMDjG+LnTtSIYjaKdg2BdZqqZkkBQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript">
+        var myFullpage = new fullpage('#fullpage', {navigation: 'true', fixedElements: '#nav-home'});
+</script>
 
 </body>
 
