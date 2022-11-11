@@ -11,3 +11,4 @@ var myFullpage = new fullpage('#fullpage', {
   fitToSection: 'true',
 
 });
+

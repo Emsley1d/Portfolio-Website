@@ -4,15 +4,20 @@
 
 }
 
-.nav {
+.nav {  
     background-color: #222831;
     display: flex;
     justify-content: flex-end;
-    position: -webkit-sticky;
-    position: sticky;
     top: 0;
+    right: 0;
     height: 4em;
     font-family: 'Inter', sans-serif;
+}
+
+#header {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
 }
 
 .links {
@@ -25,8 +30,9 @@
     justify-content: space-evenly;
 }
 
-.icons .p {
-    color: #e8eef1;
+.sectionLinks {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 #fullpage {
@@ -75,7 +81,6 @@
     margin-bottom: 0em;
     padding-left: 0.5em;
     padding-right: 0.5em;
-
 }
 
 
