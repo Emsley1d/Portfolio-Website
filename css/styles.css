@@ -5,6 +5,7 @@
 }
 
 .nav {  
+    width: 100%;
     background-color: #222831;
     display: flex;
     justify-content: flex-end;
@@ -20,10 +21,6 @@
     position: fixed;
 }
 
-.links {
-    padding: 5em;
-}
-
 .icons {
     float: right;
     display: flex;
@@ -32,7 +29,13 @@
 
 .sectionLinks {
     display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
+}
+
+.sectionLinks p {
+    padding-right: 2em;
+
 }
 
 #fullpage {
@@ -64,6 +67,7 @@
 }
 
 .project h2 {
+    /* border-top: 0; */
     font-size: 3em;
 }
 
@@ -94,7 +98,7 @@
     white-space: nowrap;
     animation: 
       typing 1.7s steps(20, end) forwards,
-      blink 1s 3;
+      blink 1s 4;
     width: 0;
     margin-top: 0em;
     padding-left: 1em;
@@ -156,11 +160,13 @@ a:link, a:visited, a:hover, a:active  {
     color: #e8eef1;
 }
 
-.linked {
+.links {
     max-width: 3em;
     max-height: 3em;
     padding: 0.5em;
+    filter: brightness(50%);
 }
+
 
 .languages {
     display: flex;
@@ -183,25 +189,31 @@ a:link, a:visited, a:hover, a:active  {
     bottom: 0em;
 }
 
+#gitSmall {
+    max-height: -0.01em;
+    max-width: -0.01em;
+}
+
 .skills {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding-left: 4em;
-    padding-right: 4em;
+    padding-left: 3em;
+    padding-right: 3em;
 
 
 }
 
 .skill-title {
     font-family: 'Montserrat', sans-serif;
-    font-size: 4em;
+    font-size: 3em;
     color: #e8eef1;
-    padding-left: 2em;
+    padding-left: 1em;
+    border-top: 4em;
 }
 
 i {
-    font-size: 4em;
+    font-size: 3em;
     color: #e8eef1;
     padding: 0.2em;
 }
@@ -210,9 +222,16 @@ i h6 {
     font-family: 'Montserrat', sans-serif;
     font-size: 0.2em;
     color: #e8eef1;
+    padding-bottom: 4em;
+    display: flex;
+    justify-content: center;
 }
 
 #fp-nav ul li a span, 
 .fp-slidesNav ul li a span{
   background: #e8eef1;
+}
+
+.read {
+    color: rgb(104, 104, 180) ;
 }
