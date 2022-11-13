@@ -56,7 +56,6 @@
     background-color: #222831;
     color: #e8eef1;
     width: 100%;
-
 }
 
 .project {
@@ -79,7 +78,7 @@
     margin-top: 0em;
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 0em;
-    padding-left: 0.5em;
+    padding-left: 1.75em;
     padding-right: 0.5em;
 }
 
@@ -117,46 +116,47 @@
 
 .aboutp {
     padding-left: 4em;
-    padding-right: 4em;
+    padding-right: 8em;
 }
 
 .content-left {
     margin: 0.5em;
-    padding-left: 4em;
-}
-
-.content-right {
-    margin: 0.5em;
-    padding-right: 4em;
-}
-
-.content-right p {
-    padding-right: 6em;
+    padding-left: 7em;
 }
 
 .content-left p {
     padding-right: 6em;
 }
 
-.img-right {
+.img-left {
     display: flex;
-    justify-content: right;
-    float: right;
-    padding-right: 4em;
+    justify-content: left;
+    float: left;
+    padding-left: 8em;
     height: 20em;
     width: 50%;
     margin: 1em;
 }
 
-.img-left {
+.content-right {
+    margin: 0.5em;
+    padding-right: 7em;
+}
+
+.content-right p {
+    padding-right: 0em;
+}
+
+.img-right {
     display: flex;
-    justify-content: left;
-    float: left;
-    padding-left: 4em;
+    justify-content: right;
+    float: right;
+    padding-right: 8em;
     height: 20em;
     width: 50%;
     margin: 1em;
 }
+
 
 a:link, a:visited, a:hover, a:active  {
     text-decoration: none;
@@ -222,7 +222,7 @@ i {
 i h6 {
     font-family: 'Montserrat', sans-serif;
     font-size: 0.2em;
-    color: #e8eef1;
+    color: #e8eef175;
     padding-bottom: 4em;
     display: flex;
     justify-content: center;
@@ -235,5 +235,14 @@ i h6 {
 
 .read {
     color: #e8eef175;
+}
 
+
+.tophr {
+    margin-top: -2em;
+    opacity: 0;
+}
+
+hr {
+    opacity: 0.5;
 }
