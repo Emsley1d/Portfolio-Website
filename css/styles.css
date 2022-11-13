@@ -1,7 +1,7 @@
 .body {
     font-family: 'Space Grotesk', sans-serif;
     background-color: #222831;
-
+    width: 100%;
 }
 
 .nav {  
@@ -35,6 +35,7 @@
 
 .sectionLinks p {
     padding-right: 2em;
+    color: #e8eef175;
 
 }
 
@@ -54,6 +55,8 @@
     text-decoration: none;
     background-color: #222831;
     color: #e8eef1;
+    width: 100%;
+
 }
 
 .project {
@@ -67,18 +70,11 @@
 }
 
 .project h2 {
-    /* border-top: 0; */
     font-size: 3em;
-}
-
-.aboutp {
-    padding-left: 4em;
-    padding-right: 4em;
 }
 
 .title h1 {
     color: #e8eef1;
-    /* background-color: #2e3642; */
     font-size: 4em;
     margin-top: 0em;
     font-family: 'Montserrat', sans-serif;
@@ -90,7 +86,6 @@
 
 .title h3 {
     font-family: 'Montserrat', sans-serif;
-    /* background-color: #2e3642; */
     font-size: 2.5em;
     color: #e8eef1;
     overflow: hidden;
@@ -108,7 +103,7 @@
 
   @keyframes typing {
     from { width: 0 }
-    to { width: 97% }
+    to { width: 100% }
   }
 
   @keyframes blink {
@@ -118,7 +113,11 @@
 
 .title p {
     color: #e8eef1;
+}
 
+.aboutp {
+    padding-left: 4em;
+    padding-right: 4em;
 }
 
 .content-left {
@@ -135,7 +134,11 @@
     padding-right: 6em;
 }
 
-.gif {
+.content-left p {
+    padding-right: 6em;
+}
+
+.img-right {
     display: flex;
     justify-content: right;
     float: right;
@@ -145,7 +148,7 @@
     margin: 1em;
 }
 
-.gif3 {
+.img-left {
     display: flex;
     justify-content: left;
     float: left;
@@ -200,8 +203,6 @@ a:link, a:visited, a:hover, a:active  {
     justify-content: space-around;
     padding-left: 3em;
     padding-right: 3em;
-
-
 }
 
 .skill-title {
@@ -229,9 +230,10 @@ i h6 {
 
 #fp-nav ul li a span, 
 .fp-slidesNav ul li a span{
-  background: #e8eef1;
+  background: #e8eef175;
 }
 
 .read {
-    color: rgb(104, 104, 180) ;
+    color: #e8eef175;
+
 }
