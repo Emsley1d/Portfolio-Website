@@ -95,14 +95,14 @@
       blink 1s 4;
     width: 0;
     margin-top: 0em;
-    padding-left: 1em;
+    padding-left: 3em;
     padding-right: 0em;
 
   }
 
   @keyframes typing {
     from { width: 0 }
-    to { width: 100% }
+    to { width: 81% }
   }
 
   @keyframes blink {
@@ -133,7 +133,7 @@
     justify-content: left;
     float: left;
     padding-left: 8em;
-    height: 20em;
+    max-height: 20em;
     width: 50%;
     margin: 1em;
 }
@@ -152,7 +152,7 @@
     justify-content: right;
     float: right;
     padding-right: 8em;
-    height: 20em;
+    max-height: 20em;
     width: 50%;
     margin: 1em;
 }
@@ -245,4 +245,70 @@ i h6 {
 
 hr {
     opacity: 0.5;
+}
+
+
+
+@media (max-width: 768px) {
+    .container, .project, .content-left, .content-right, .title, .title h1, .title h3, body, .aboutp, .img-left, .img-right {
+      align-content: center;
+      flex-direction: column;
+      justify-content: center;
+      max-width: 100%;
+      padding-left: 0.12em;
+      padding-right: 0.12em;
+      padding-top: 1em;
+      padding-top: 0.1em;
+      /* font-size: 1em; */
+    }
+}
+
+@media (max-width: 768px) {
+    .img-left, .img-right {
+    display: flex;
+    justify-content: center;
+    padding-left: 0.12em;
+    padding-right: 0.12em;
+    /* margin: 0.1em;
+
+
+    }
+}
+
+/* @media (min-width: 481, max-width: 768px) */
+/* keep same as above? */
+
+
+/* @media (min-width: 769, max-width: 1024px) */
+/* 769px — 1024px: Small screens, laptops */
+
+/* @media
+1025px — 1200px: Desktops, large screens */
+
+/* @media
+1200px + */
+
+
+
+/* @media (max-width: 1200px) {
+    .container, .project, .content-left, .content-right, .title, .title h1, .title h3 {
+      flex-direction: column;
+      justify-content: center;
+      max-width: 100%;
+      padding-left: 1em;
+      padding-right: 1em;
+
+    }
+} */
+
+/* @media (max-width: 1200px) {
+    .img-left, .img-right {
+        flex-direction: column;
+        justify-content: center;
+        max-width: 50%;
+        max-height: 50%;
+
+    }
+} */
+    }
 }
