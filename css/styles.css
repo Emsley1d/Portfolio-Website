@@ -95,14 +95,14 @@
       blink 1s 4;
     width: 0;
     margin-top: 0em;
-    padding-left: 1em;
+    padding-left: 3em;
     padding-right: 0em;
 
   }
 
   @keyframes typing {
     from { width: 0 }
-    to { width: 100% }
+    to { width: 82% }
   }
 
   @keyframes blink {
@@ -197,7 +197,7 @@ a:link, a:visited, a:hover, a:active  {
     max-width: -0.01em;
 }
 
-.skills {
+.skill {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -246,21 +246,19 @@ hr {
     opacity: 0.5;
 }
 
+/* 768 */
 
-
-@media (max-width: 768px) {
-    .container, .project, .content-left, .content-right, .title, .title h1, .title h3, body, .aboutp {
+@media (max-width: 1000px) {
+    .container, .project, .content-left, .content-right, .title, .title h1, .title h3, body {
       align-content: center;
       flex-direction: column;
       justify-content: center;
       padding-left: 0.12em;
-      padding-right: 0.12em;
+      padding-right: 0.75em;
       padding-top: 1em;
       /* padding-top: 0.1em; */
     }
-}
 
-@media (max-width: 768px) {
     .img-left, .img-right {
     display: flex;
     justify-content: center;
@@ -270,7 +268,55 @@ hr {
     border-bottom: 0.4em;
     max-height: 16em;
     }
+
+    .img-right {
+        border-left: 2.5em;
+    }
+
+    .title h3 {
+    font-size: 1.5em;
+    }
+
+    @keyframes typing {
+        from { width: 0 }
+        to { width: 79% }
+      }
+    
+      @keyframes blink {
+        from { border-color: transparent }
+        to { border-color: #e8eef1; }
+      }
 }
+
+
+    @media (max-width: 550px) {
+      .skill {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        padding-left: 1em;
+      }
+
+      i h6 {
+        padding-left: 1em;
+        display: flex;
+        justify-content: row;
+      }
+
+}
+
+@media (max-width: 1200px) {
+    .aboutp {
+        align-content: center;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 0.5em;
+        padding-right: 0.75em;
+        padding-top: 1em;
+    }
+}
+
+
 
 /* @media (min-width: 481, max-width: 768px) */
 /* keep same as above? */
@@ -285,25 +331,3 @@ hr {
 /* @media
 1200px + */
 
-
-
-/* @media (max-width: 1200px) {
-    .container, .project, .content-left, .content-right, .title, .title h1, .title h3 {
-      flex-direction: column;
-      justify-content: center;
-      max-width: 100%;
-      padding-left: 1em;
-      padding-right: 1em;
-
-    }
-} */
-
-/* @media (max-width: 1200px) {
-    .img-left, .img-right {
-        flex-direction: column;
-        justify-content: center;
-        max-width: 50%;
-        max-height: 50%;
-
-    }
-} */
