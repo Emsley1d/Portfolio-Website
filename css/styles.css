@@ -15,6 +15,11 @@
     font-family: 'Inter', sans-serif;
 }
 
+#home {
+    position: relative;
+    float: left;
+}
+
 #header {
     display: flex;
     justify-content: flex-end;
@@ -244,6 +249,18 @@ i h6 {
 
 hr {
     opacity: 0.5;
+}
+
+#aboutMe h2 {
+    padding-left: 1em;
+}
+
+#aboutMe h3 {
+    padding-left: 2.5em;
+}
+
+#aboutMe p {
+    padding-left: 4em;
 }
 
 /* 768 */
