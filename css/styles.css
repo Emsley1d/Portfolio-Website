@@ -281,16 +281,14 @@ hr {
     }
 
     .content-right, .img-left, .content-right p {
-        display: flex;
-        /* align-content: center; */
+        align-content: center;
         flex-direction: column;
-        /* justify-content: center; */
+        justify-content: center;
         padding-left: 0.12em;
         padding-right: 0.75em;
-        padding-top: 1em;
-        padding-top: 0.1em;
         min-width: 22em;
     }
+
 
     .content-left, .img-right{
         align-content: center;
@@ -298,10 +296,12 @@ hr {
         justify-content: center;
         padding-left: 0.12em;
         padding-right: 0.75em;
-        padding-top: 1em;
-        padding-top: 0.1em;
         min-width: 22em;
 
+    }
+
+    .img-left {
+        border-top: 5em;
     }
 
     .title h3 {
@@ -313,14 +313,11 @@ hr {
 
     }
 
-    #aboutMe h3 {
-        padding-left: 0.05em;
-  
-    }
 
-    .righthr {
-        margin-right: 0.5em;
-    }
+    #aboutMe h3 {
+        padding-left: 0.1em;
+      }
+
 
 
     @keyframes typing {
@@ -328,9 +325,6 @@ hr {
         to { width: 79% }
       }
 
-        #aboutMe h3 {
-      padding-left: 0.1em;
-    }
     
       @keyframes blink {
         from { border-color: transparent }
