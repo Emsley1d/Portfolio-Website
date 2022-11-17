@@ -95,9 +95,9 @@
     overflow: hidden;
     border-right: .1em solid #222831;
     white-space: nowrap;
-    /* animation: 
+    animation: 
       typing 1.7s steps(20, end) forwards,
-      blink 1s 4; */
+      blink 1s 4;
     width: 0;
     margin-top: 0em;
     padding-left: 3em;
@@ -105,7 +105,7 @@
 
   }
 
-  /* @keyframes typing {
+  @keyframes typing {
     from { width: 0 }
     to { width: 100% }
   }
@@ -113,7 +113,7 @@
   @keyframes blink {
     from { border-color: transparent }
     to { border-color: #e8eef1; }
-  } */
+  }
 
 .title p {
     color: #e8eef1;
@@ -130,7 +130,7 @@
 }
 
 .content-left p {
-    padding-right: 2;
+    padding-right: 2em;
 }
 
 .img-left {
@@ -149,7 +149,7 @@
 }
 
 .content-right p {
-    padding-right: 0.5em;
+    padding-right: 7.5em;
 }
 
 .img-right {
@@ -251,6 +251,10 @@ hr {
     opacity: 0.5;
 }
 
+.righthr {
+    margin-right: 8.2em;
+}
+
 #aboutMe h2 {
     padding-left: 1em;
 }
@@ -276,14 +280,16 @@ hr {
       padding-top: 0.1em;
     }
 
-    .content-right, .img-left {
-        align-content: center;
+    .content-right, .img-left, .content-right p {
+        display: flex;
+        /* align-content: center; */
         flex-direction: column;
-        justify-content: center;
+        /* justify-content: center; */
         padding-left: 0.12em;
         padding-right: 0.75em;
         padding-top: 1em;
         padding-top: 0.1em;
+        min-width: 22em;
     }
 
     .content-left, .img-right{
@@ -294,6 +300,8 @@ hr {
         padding-right: 0.75em;
         padding-top: 1em;
         padding-top: 0.1em;
+        min-width: 22em;
+
     }
 
     .title h3 {
@@ -308,10 +316,14 @@ hr {
     #aboutMe h3 {
         padding-left: 0.05em;
   
-      }
+    }
+
+    .righthr {
+        margin-right: 0.5em;
+    }
 
 
-    /* @keyframes typing {
+    @keyframes typing {
         from { width: 0 }
         to { width: 79% }
       }
@@ -323,7 +335,7 @@ hr {
       @keyframes blink {
         from { border-color: transparent }
         to { border-color: #e8eef1; }
-      } */
+      }
 }
 
 
