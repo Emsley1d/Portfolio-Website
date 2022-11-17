@@ -95,9 +95,9 @@
     overflow: hidden;
     border-right: .1em solid #222831;
     white-space: nowrap;
-    animation: 
+    /* animation: 
       typing 1.7s steps(20, end) forwards,
-      blink 1s 4;
+      blink 1s 4; */
     width: 0;
     margin-top: 0em;
     padding-left: 3em;
@@ -105,21 +105,21 @@
 
   }
 
-  @keyframes typing {
+  /* @keyframes typing {
     from { width: 0 }
-    to { width: 82% }
+    to { width: 100% }
   }
 
   @keyframes blink {
     from { border-color: transparent }
     to { border-color: #e8eef1; }
-  }
+  } */
 
 .title p {
     color: #e8eef1;
 }
 
-.aboutp {
+#aboutp {
     padding-left: 4em;
     padding-right: 8em;
 }
@@ -145,7 +145,7 @@
 
 .content-right {
     margin: 0.5em;
-    padding-right: 7em;
+    padding-right: 0.5em;
 }
 
 .content-right p {
@@ -263,46 +263,67 @@ hr {
     padding-left: 4em;
 }
 
-/* 768 */
+
 
 @media (max-width: 1000px) {
-    .container, .project, .content-left, .content-right, .title, .title h1, .title h3, body {
+    .container, .project, .title, .title h1, .title h3, body, #aboutMe p {
       align-content: center;
       flex-direction: column;
       justify-content: center;
       padding-left: 0.12em;
       padding-right: 0.75em;
       padding-top: 1em;
-      /* padding-top: 0.1em; */
+      padding-top: 0.1em;
     }
 
-    .img-left, .img-right {
-    display: flex;
-    justify-content: center;
-    border-left: 0.5em;
-    border-right: 0.5em;
-    border-top: 2em;
-    border-bottom: 0.4em;
-    max-height: 16em;
+    .content-right, .img-left {
+        align-content: center;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 0.12em;
+        padding-right: 0.75em;
+        padding-top: 1em;
+        padding-top: 0.1em;
     }
 
-    .img-right {
-        border-left: 2.5em;
+    .content-left, .img-right{
+        align-content: center;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 0.12em;
+        padding-right: 0.75em;
+        padding-top: 1em;
+        padding-top: 0.1em;
     }
 
     .title h3 {
     font-size: 1.5em;
     }
 
-    @keyframes typing {
+    #aboutMe h2 {
+      padding-left: 0.05em;
+
+    }
+
+    #aboutMe h3 {
+        padding-left: 0.05em;
+  
+      }
+
+
+    /* @keyframes typing {
         from { width: 0 }
         to { width: 79% }
       }
+
+        #aboutMe h3 {
+      padding-left: 0.1em;
+    }
     
       @keyframes blink {
         from { border-color: transparent }
         to { border-color: #e8eef1; }
-      }
+      } */
 }
 
 
@@ -322,8 +343,8 @@ hr {
 
 }
 
-@media (max-width: 1200px) {
-    .aboutp {
+@media (max-width: 1500px) {
+    #aboutp {
         align-content: center;
         flex-direction: column;
         justify-content: center;
