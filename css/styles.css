@@ -92,28 +92,8 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5em;
     color: #e8eef1;
-    overflow: hidden;
-    border-right: .1em solid #222831;
-    white-space: nowrap;
-    animation: 
-      typing 1.7s steps(20, end) forwards,
-      blink 1s 4;
-    width: 0;
-    margin-top: 0em;
     padding-left: 3em;
-    padding-right: 0em;
-
-  }
-
-  @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-  }
-
-  @keyframes blink {
-    from { border-color: transparent }
-    to { border-color: #e8eef1; }
-  }
+}
 
 .title p {
     color: #e8eef1;
@@ -316,19 +296,6 @@ hr {
 
     #aboutMe h3 {
         padding-left: 0.1em;
-      }
-
-
-
-    @keyframes typing {
-        from { width: 0 }
-        to { width: 79% }
-      }
-
-    
-      @keyframes blink {
-        from { border-color: transparent }
-        to { border-color: #e8eef1; }
       }
 }
 
