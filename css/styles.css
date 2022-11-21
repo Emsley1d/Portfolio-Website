@@ -1,330 +1,371 @@
 .body {
-    font-family: 'Space Grotesk', sans-serif;
-    background-color: #222831;
-    width: 100%;
-}
-
-.nav {  
-    width: 100%;
-    background-color: #222831;
-    display: flex;
-    justify-content: flex-end;
-    top: 0;
-    right: 0;
-    height: 4em;
-    font-family: 'Inter', sans-serif;
+  font-family: "Space Grotesk", sans-serif;
+  background-color: #222831;
+  width: 100%;
 }
 
 #home {
-    position: relative;
-    float: left;
+  position: relative;
+  float: left;
 }
 
 #header {
-    display: flex;
-    justify-content: flex-end;
-    position: fixed;
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
 }
 
 .icons {
-    float: right;
-    display: flex;
-    justify-content: space-evenly;
+  float: right;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .sectionLinks {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .sectionLinks p {
-    padding-right: 2em;
-    color: #e8eef175;
-
+  padding-right: 2em;
+  color: #e8eef175;
 }
 
 #fullpage {
-    background-color: #222831;
+  background-color: #222831;
 }
 
 .section {
-    background-color: #222831;
+  background-color: #222831;
 }
 .container {
-    display: flex;
-    flex-wrap: row;
-    justify-content: space-evenly;
-    padding-top: 3em;
-    padding-bottom: 3em;
-    text-decoration: none;
-    background-color: #222831;
-    color: #e8eef1;
-    width: 100%;
+  display: flex;
+  flex-wrap: row;
+  justify-content: space-evenly;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  text-decoration: none;
+  background-color: #222831;
+  color: #e8eef1;
+  width: 100%;
 }
 
 .project {
-    display: flex;
-    flex-direction: row;
-    color: #e8eef1;
-    font-family: 'Inter', sans-serif;
-    width: 100%;
-    box-shadow: inset;
-    background-color: #222831;   
+  display: flex;
+  flex-direction: row;
+  color: #e8eef1;
+  font-family: "Inter", sans-serif;
+  width: 100%;
+  box-shadow: inset;
+  background-color: #222831;
 }
 
 .project h2 {
-    font-size: 3em;
+  font-size: 3em;
 }
 
 .title h1 {
-    color: #e8eef1;
-    font-size: 4em;
-    margin-top: 0em;
-    font-family: 'Montserrat', sans-serif;
-    margin-bottom: 0em;
-    padding-left: 1.75em;
-    padding-right: 0.5em;
+  color: #e8eef1;
+  font-size: 4em;
+  margin-top: 0em;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 0em;
+  padding-left: 1.75em;
+  padding-right: 0.5em;
 }
 
-
 .title h3 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2.5em;
-    color: #e8eef1;
-    padding-left: 3em;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5em;
+  color: #e8eef1;
+  padding-left: 3em;
 }
 
 .title p {
-    color: #e8eef1;
+  color: #e8eef1;
 }
 
 #aboutp {
-    padding-left: 4em;
-    padding-right: 8em;
+  padding-left: 4em;
+  padding-right: 8em;
 }
 
 .content-left {
-    margin: 0.5em;
-    padding-left: 7em;
+  margin: 0.5em;
+  padding-left: 7em;
 }
 
 .content-left p {
-    padding-right: 2em;
+  padding-right: 2em;
 }
 
 .img-left {
-    display: flex;
-    justify-content: left;
-    float: left;
-    padding-left: 8em;
-    height: 20em;
-    width: 50%;
-    margin: 1em;
+  display: flex;
+  justify-content: left;
+  float: left;
+  padding-left: 8em;
+  height: 20em;
+  width: 50%;
+  margin: 1em;
 }
 
 .content-right {
-    margin: 0.5em;
-    padding-right: 0.5em;
+  margin: 0.5em;
+  padding-right: 0.5em;
 }
 
 .content-right p {
-    padding-right: 7.5em;
+  padding-right: 7.5em;
 }
 
 .img-right {
-    display: flex;
-    justify-content: right;
-    float: right;
-    padding-right: 8em;
-    height: 20em;
-    width: 50%;
-    margin: 1em;
+  display: flex;
+  justify-content: right;
+  float: right;
+  padding-right: 8em;
+  height: 20em;
+  width: 50%;
+  margin: 1em;
 }
 
-
-a:link, a:visited, a:hover, a:active  {
-    text-decoration: none;
-    color: #e8eef1;
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: #e8eef1;
 }
 
 .links {
-    max-width: 3em;
-    max-height: 3em;
-    padding: 0.5em;
-    filter: brightness(50%);
+  max-width: 3em;
+  max-height: 3em;
+  padding: 0.2em;
+  border-radius: 10%;
+  background-color: #2a323d;
 }
 
-
 .languages {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    max-width: 2em;
-    max-height: 2em;  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  max-width: 2em;
+  max-height: 2em;
 }
 
 .readme {
-    position: relative;
-    height: 4em;
+  position: relative;
+  height: 4em;
 }
 
 .git {
-    position: relative;
-    max-width: 3.5em;
-    max-height: 3.5em;
-    padding: 0.5em;
-    bottom: 0em;
+  position: relative;
+  max-width: 3.5em;
+  max-height: 3.5em;
+  padding: 0.5em;
+  bottom: 0em;
 }
 
 #gitSmall {
-    max-height: -0.01em;
-    max-width: -0.01em;
+  max-height: -0.01em;
+  max-width: -0.01em;
 }
 
 .skill {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding-left: 3em;
-    padding-right: 3em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-left: 3em;
+  padding-right: 3em;
 }
 
 .skill-title {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 3em;
-    color: #e8eef1;
-    padding-left: 1em;
-    border-top: 4em;
+  font-family: "Montserrat", sans-serif;
+  font-size: 3em;
+  color: #e8eef1;
+  padding-left: 1em;
+  padding-top: 0.4em;
 }
 
 i {
-    font-size: 3em;
-    color: #e8eef1;
-    padding: 0.2em;
+  font-size: 3em;
+  color: #e8eef1;
+  padding: 0.2em;
 }
 
 i h6 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 0.2em;
-    color: #e8eef175;
-    padding-bottom: 4em;
-    display: flex;
-    justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.2em;
+  color: #e8eef175;
+  padding-bottom: 4em;
+  display: flex;
+  justify-content: center;
 }
 
-#fp-nav ul li a span, 
-.fp-slidesNav ul li a span{
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
   background: #e8eef175;
 }
 
 .read {
-    color: #e8eef175;
+  color: #e8eef175;
 }
 
 .tophr {
-    margin-top: -2em;
-    opacity: 0;
+  margin-top: -2em;
+  opacity: 0;
 }
 
 hr {
-    opacity: 0.5;
+  opacity: 0.5;
 }
 
 .righthr {
-    margin-right: 8.2em;
+  margin-right: 8.2em;
 }
 
 #aboutMe h2 {
-    padding-left: 1em;
+  padding-left: 1em;
 }
 
 #aboutMe h3 {
-    padding-left: 2.5em;
+  padding-left: 2.5em;
 }
 
 #aboutMe p {
-    padding-left: 4em;
+  padding-left: 4em;
+  padding-right: 6em;
+
 }
-
-
 
 @media (max-width: 1000px) {
-    .container, .project, .title, .title h1, .title h3, body, #aboutMe p {
-      align-content: center;
-      flex-direction: column;
-      justify-content: center;
-      padding-left: 0.12em;
-      padding-right: 0.75em;
-      padding-top: 1em;
-      padding-top: 0.1em;
-    }
+  .container,
+  .project,
+  .title,
+  .title h1,
+  .title h3,
+  body,
+  #aboutMe p {
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 0.12em;
+    padding-right: 0.75em;
+    padding-top: 1em;
+    padding-top: 0.1em;
+  }
 
-    .content-right, .img-left, .content-right p {
-        align-content: center;
-        flex-direction: column;
-        justify-content: center;
-        padding-left: 0.12em;
-        padding-right: 0.75em;
-        min-width: 22em;
-    }
+  .content-right,
+  .img-left,
+  .content-right p {
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 0.12em;
+    padding-right: 0.75em;
+    min-width: 22em;
+  }
 
+  .content-left,
+  .img-right {
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 0.12em;
+    padding-right: 0.75em;
+    min-width: 22em;
+  }
 
-    .content-left, .img-right{
-        align-content: center;
-        flex-direction: column;
-        justify-content: center;
-        padding-left: 0.12em;
-        padding-right: 0.75em;
-        min-width: 22em;
+  .img-left {
+    border-top: 5em;
+  }
 
-    }
-
-    .img-left {
-        border-top: 5em;
-    }
-
-    .title h3 {
+  .title h3 {
     font-size: 1.5em;
-    }
+  }
 
-    #aboutMe h2 {
-      padding-left: 0.05em;
+  #aboutMe h2 {
+    padding-left: 0.05em;
+  }
 
-    }
-
-
-    #aboutMe h3 {
-        padding-left: 0.1em;
-      }
+  #aboutMe h3 {
+    padding-left: 0.1em;
+  }
 }
 
+@media (max-width: 550px) {
+  .skill {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-left: 1em;
+  }
 
-    @media (max-width: 550px) {
-      .skill {
-        display: flex;
-        flex-direction: column;
-        justify-content: left;
-        padding-left: 1em;
-      }
-
-      i h6 {
-        padding-left: 1em;
-        display: flex;
-        justify-content: row;
-      }
-
+  i h6 {
+    padding-left: 1em;
+    display: flex;
+    justify-content: row;
+  }
 }
 
 @media (max-width: 1500px) {
-    #aboutp {
-        align-content: center;
-        flex-direction: column;
-        justify-content: center;
-        padding-left: 0.5em;
-        padding-right: 0.75em;
-        padding-top: 1em;
-    }
+  #aboutp {
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 0.5em;
+    padding-right: 0.75em;
+    padding-top: 1em;
+  }
 }
 
+/* ! HAMBURGER MENU */
+.topnav {
+  font-family: "Space Grotesk", sans-serif;
+  overflow: hidden;
+  background-color: #222831;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
 
+.topnav #myLinks {
+  display: none;
+  position: relative;
+  background-color: #2a323d;
+
+}
+
+.topnav a {
+  color: #e8eef1;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.5em;
+  display: block;
+}
+
+.topnav a.icon {
+  background: #222831;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #e8eef1;
+  color: #222831;
+}
+
+.active {
+  background-color: #222831;
+  color: #e8eef1;
+}
+
+.fa-bars {
+  color: #e8eef1;
+}
+
+.fa-bars a:hover {
+  color: #222831;
+}
