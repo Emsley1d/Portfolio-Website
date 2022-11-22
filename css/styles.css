@@ -238,7 +238,7 @@ hr {
 
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1025px) {
   .container,
   .project,
   .title,
@@ -263,7 +263,7 @@ hr {
     justify-content: center;
     padding-left: 0.12em;
     padding-right: 0.75em;
-    min-width: 22em;
+    min-width: 20em;
   }
 
   .content-left,
@@ -273,7 +273,7 @@ hr {
     justify-content: center;
     padding-left: 0.12em;
     padding-right: 0.75em;
-    min-width: 22em;
+    min-width: 20em;
   }
 
   .img-left {
@@ -338,7 +338,7 @@ hr {
 
 .topnav a {
   color: #e8eef1;
-  padding: 14px 16px;
+  padding: 0.3em 0.3em;
   text-decoration: none;
   font-size: 1.5em;
   display: block;
@@ -353,7 +353,7 @@ hr {
 }
 
 .topnav a:hover {
-  background-color: #e8eef1;
+  background-color: #e8eef175;
   color: #222831;
 }
 
@@ -366,6 +366,6 @@ hr {
   color: #e8eef1;
 }
 
-.fa-bars a:hover {
+.fa .fa-bars a:hover {
   color: #222831;
 }
