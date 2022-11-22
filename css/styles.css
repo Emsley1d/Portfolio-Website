@@ -238,6 +238,39 @@ hr {
 
 }
 
+
+/* 320px — 480px: Mobile devices.
+481px — 768px: iPads, Tablets.
+769px — 1024px: Small screens, laptops.
+1025px — 1200px: Desktops, large screens.
+1201px and more — Extra large screens, TV. */
+
+@media (max-width: 550px) {
+  .skill {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-left: 1em;
+  }
+
+  .img-left, .content-left h2 {
+    padding-top: 0em;
+    border-top: 0em;
+    border-bottom: 0em;
+
+  }
+
+  .title {
+    border-right: 10em;
+  }
+
+  i h6 {
+    padding-left: 1em;
+    display: flex;
+    justify-content: row;
+  }
+}
+
 @media (max-width: 1025px) {
   .container,
   .project,
@@ -262,8 +295,13 @@ hr {
     flex-direction: column;
     justify-content: center;
     padding-left: 0.12em;
-    padding-right: 0.75em;
+    padding-right: 1.25em;
     min-width: 20em;
+  }
+
+  .img-left {
+    padding-left: 0.75em;
+
   }
 
   .content-left,
@@ -272,7 +310,7 @@ hr {
     flex-direction: column;
     justify-content: center;
     padding-left: 0.12em;
-    padding-right: 0.75em;
+    padding-right: 2em;
     min-width: 20em;
   }
 
@@ -293,20 +331,6 @@ hr {
   }
 }
 
-@media (max-width: 550px) {
-  .skill {
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    padding-left: 1em;
-  }
-
-  i h6 {
-    padding-left: 1em;
-    display: flex;
-    justify-content: row;
-  }
-}
 
 @media (max-width: 1500px) {
   #aboutp {
