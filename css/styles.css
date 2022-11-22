@@ -276,10 +276,6 @@ hr {
     display: flex;
     justify-content: row;
   }
-
-  .container {
-    height: 98%;
-  }
 }
 
 @media (max-width: 1025px) {
