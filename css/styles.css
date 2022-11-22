@@ -260,6 +260,10 @@ hr {
     display: none;
   }
 
+  ::-webkit-scrollbar {
+    display: none;
+    }
+
   .body {
       overflow-y: hidden;
       overflow-x: hidden;
