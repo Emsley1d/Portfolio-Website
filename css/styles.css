@@ -82,6 +82,12 @@
   padding-left: 3em;
 }
 
+.vl {
+  border-left: 0.2em solid #e8eef175;
+  height: 22em;
+}
+
+
 .title p {
   color: #e8eef1;
 }
@@ -127,6 +133,7 @@
   height: 20em;
   width: 50%;
   margin: 1em;
+  border-top: 20em;
 }
 
 a:link,
@@ -138,8 +145,8 @@ a:active {
 }
 
 .links {
-  max-width: 3em;
-  max-height: 3em;
+  max-width: 2em;
+  max-height: 2em;
   padding: 0.2em;
   border-radius: 10%;
   background-color: #2a323d;
@@ -329,7 +336,14 @@ hr {
   #aboutMe h3 {
     padding-left: 0.1em;
   }
+
+  .vl {
+    border-left: 0em solid #e8eef175;
+    height: 0em;
+  }
+  
 }
+
 
 
 @media (max-width: 1500px) {
