@@ -256,11 +256,15 @@ hr {
 
 @media (max-width: 550px) {
 
+  .scrollbar-hidden::-webkit-scrollbar {
+    display: none;
+  }
+
   .body {
       overflow-y: hidden;
       overflow-x: hidden;
   }
-  
+
   .skill {
     display: flex;
     flex-direction: column;
