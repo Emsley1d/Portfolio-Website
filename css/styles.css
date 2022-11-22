@@ -255,6 +255,12 @@ hr {
 1201px and more — Extra large screens, TV. */
 
 @media (max-width: 550px) {
+
+  .body {
+      overflow-y: hidden;
+      overflow-x: hidden;
+  }
+  
   .skill {
     display: flex;
     flex-direction: column;
@@ -271,6 +277,11 @@ hr {
 
   .title {
     border-right: 10em;
+  }
+
+  i {
+    display: flex;
+    justify-content: center;
   }
 
   i h6 {
