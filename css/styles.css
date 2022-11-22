@@ -1,4 +1,6 @@
 .body {
+  overflow-y: hidden;
+  overflow-x: hidden;
   font-family: "Space Grotesk", sans-serif;
   background-color: #222831;
   width: 100%;
