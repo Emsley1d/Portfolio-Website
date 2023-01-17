@@ -154,6 +154,14 @@ a:active {
   background-color: #2a323d;
 }
 
+.links2 {
+  max-width: 2em;
+  max-height: 2em;
+  padding: 0.2em;
+  border-radius: 10%;
+  background-color: #222831;
+}
+
 .languages {
   display: flex;
   flex-direction: row;
